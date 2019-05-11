@@ -34,3 +34,8 @@ img {
   width: 200px;
   height: 100px;
 }
+
+.main-nav {
+  width: 320px;
+  margin: 0 auto;
+}
