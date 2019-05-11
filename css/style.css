@@ -29,3 +29,8 @@ img {
   
   text-align: center;
 }
+
+.page-header__logo img {
+  width: 200px;
+  height: 100px;
+}
