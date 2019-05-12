@@ -188,3 +188,23 @@ img {
   background-color: rgba(50,100,150,1.0);
   border-top-color: rgba(50,100,150,1.0);
 }
+
+.user-list {
+  font-weight: bold;
+}
+
+.user-list__login {
+  position: relative;
+  
+  display: block;
+  padding: 13px 20px;
+  padding-bottom: 14px;
+  padding-left: 49px;
+  
+  font-size: 18px;
+  line-height: 24px;
+  
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
