@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&subset=cyrillic');
 
+@font-face {
+  font-weight: normal;
+  font-family: "PT Sans";
+  font-style: normal;
+  src: url("../fonts/ptsans.woff2") format("woff2"), url("../fonts/ptsans.woff") format("woff");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "PT Sans";
+  font-style: normal;
+  src: url("../fonts/ptsansbold.woff2") format("woff2"), url("../fonts/ptsansbold.woff") format("woff");
+}
+
 body {
   min-width: 320px;
   margin: 0;
