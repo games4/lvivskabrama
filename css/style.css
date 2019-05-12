@@ -208,3 +208,18 @@ img {
   text-transform: uppercase;
   text-decoration: none;
 }
+
+.user-list__login-icon {
+  position: absolute;
+  top: 17px;
+  left: 21px;
+
+  width: 16px;
+  height: 16px;
+
+  opacity: 0.3;
+
+  polygon {
+    fill: #ffffff;
+  }
+}
