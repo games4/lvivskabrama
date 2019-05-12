@@ -74,7 +74,7 @@ img {
   margin: 0 auto;
   min-height: 51px;
   
-  background-color: rgba(130,210,255,1.0);
+  background-color: rgba(50,100,255,1.0);
 }
 
 .main-nav__toggle {
@@ -156,4 +156,35 @@ img {
     width: auto;
     margin: 0;
   }
+}
+
+.site-list {
+  font-weight: bold;
+}
+
+.site-list a {
+  display: block;
+  padding: 12px 20px;
+  padding-bottom: 13px;
+  
+  font-size: 18px;
+  line-height: 24px;
+  
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: rgba(50,100,255,1.0);
+  border-top: 1px solid rgb(80,130,220);
+  border-bottom: 1px solid rgb(0,100,200);
+}
+
+.site-list a[href]:hover {
+  background-color: rgba(0,82,150,1.0);
+  border-top-color: rgba(0,82,150,1.0);
+}
+
+.site-list a[href]:active {
+  color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(50,100,150,1.0);
+  border-top-color: rgba(50,100,150,1.0);
 }
