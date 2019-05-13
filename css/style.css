@@ -166,6 +166,12 @@ img {
   }
 }
 
+  .main-nav--closed .site-list__item--active a {
+    padding-right: 70px;
+    padding-left: 70px;
+    text-align: center;
+  }
+
 @media (min-width: 768px) {
   .main-nav {
     width: auto;
