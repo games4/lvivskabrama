@@ -198,6 +198,29 @@ img {
   .main-nav--nojs .main-nav__toggle {
     display: none;
   }
+  
+  /* Повертаю блоку навігації первинне положення і вид */
+  .main-nav--nojs .main-nav__wrapper {
+    position: static;
+    min-height: 0;
+  }
+  
+  .main-nav--nojs .site-list__item {
+    display: block;
+  }
+  
+  .main-nav--nojs .site-list__item--active a {
+    padding-right: 21px;
+    padding-left: 21px;
+    
+    text-align: left;
+  }
+  
+  .main-nav--nojs .user-list__item {
+    display: block;
+    
+    background-color: rgba(0,100,200,1.0);
+  }
 }
 
 @media (min-width: 768px) {
@@ -271,3 +294,4 @@ img {
   polygon {
     fill: #ffffff;
   }
+}
