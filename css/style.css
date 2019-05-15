@@ -301,6 +301,22 @@ img {
     margin-right: 0;
   }
   
+  .site-list__item--active {
+    position: relative;
+  }
+  
+  .site-list__item--active::after {
+    content: "";
+    position: absolute;
+    /* Взаємозамінність властивостей width: 100%; і позиціонування right: 0; left: 0; */
+    width: 100%;
+    /* right: 0; */
+    bottom: 0px;
+    /* left: 0; */
+    height: 5px;
+    background-color: rgba(50,100,255,1.0);
+  }
+  
   .site-list__item a {
     padding: 0;
     padding-top: 13px;
