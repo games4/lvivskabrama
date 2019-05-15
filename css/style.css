@@ -237,6 +237,10 @@ img {
     background-color: rgb(0,55,100);
   }
   
+  .main-nav__toggle {
+    display: none;
+  }
+  
   /* Обгортка списків меню сайту для планшетного варіанту матиме властивості флекс-контейнера */
   .main-nav__wrapper {
     display: flex;
@@ -320,7 +324,6 @@ img {
     fill: #ffffff;
   }
 }
-
 
 @media (min-width: 768px) {
   .user-list {
