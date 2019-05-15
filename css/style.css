@@ -320,3 +320,11 @@ img {
     fill: #ffffff;
   }
 }
+
+
+@media (min-width: 768px) {
+  .user-list {
+    /* flex-basis: 60px; */
+    width: 60px;
+  }
+}
