@@ -277,6 +277,15 @@ img {
   border-top-color: rgba(50,100,150,1.0);
 }
 
+@media (min-width: 768px) {
+  .site-list {
+    /* flex-basis: 570px; */
+    width: 570px;
+    /* Временно для сетки меню планшетной и десктопной версии сайта*/
+    /* min-height: 70px; */
+  }
+}
+
 .user-list {
   font-weight: bold;
 }
