@@ -283,6 +283,10 @@ img {
 
 @media (min-width: 768px) {
   .site-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
     /* flex-basis: 570px; */
     width: 570px;
     /* Временно для сетки меню планшетной и десктопной версии сайта*/
