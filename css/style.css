@@ -315,10 +315,10 @@ img {
     content: "";
     position: absolute;
     /* Взаємозамінність властивостей width: 100%; і позиціонування right: 0; left: 0; */
-    width: 100%;
-    /* right: 0; */
+    /* width: 100%; */
+    right: 0;
+    left: 0;
     bottom: -3px;
-    /* left: 0; */
     height: 5px;
     /* background-color: rgba(50,100,255,1.0); */
     background-color: rgba(255,255,100,1.0);
@@ -354,6 +354,22 @@ img {
     width: 570px;
     /* Временно для сетки меню планшетной и десктопной версии сайта*/
     /* min-height: 70px; */
+  }
+  
+  .site-list__item a {
+    padding-right: 31px;
+    padding-left: 31px;
+  }
+  
+  .site-list__item a[href]:hover {
+    color: #000000;
+    background-color: #ffffff;
+  }
+  
+  .site-list__item a[href]:active {
+    color: rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+    opacity: 1;
   }
 }
 
