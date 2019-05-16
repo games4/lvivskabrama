@@ -68,6 +68,10 @@ img {
 }
 
 @media (min-width: 768px) {
+  .page-header {
+    background-color: rgba(0,82,150,1.0);
+  }
+  
   .page-header__logo {
     order: 2;
     height: 400px;
