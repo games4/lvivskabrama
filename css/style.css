@@ -327,7 +327,7 @@ img {
   .site-list__item a {
     padding: 0;
     padding-top: 13px;
-    padding-bottom: 13px;
+    padding-bottom: 14px;
     background: none;
     border: none;
   }
@@ -461,5 +461,48 @@ img {
 @media (min-width: 1200px) {
   .user-list {
     width: 160px;
+  }
+  
+  .user-list__login {
+    position: relative;
+    
+    width: auto;
+    height: auto;
+    padding-top: 13px;
+    padding-right: 30px;
+    padding-bottom: 14px;
+    padding-left: 50px;
+    
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  .user-list__login:hover {
+    color: #000000;
+    background-color: #ffffff;
+  }
+  
+  .user-list__login:active {
+    color: rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+  }
+  
+  .user-list__login:hover .user-list__login-icon {
+    opacity: 0.3;
+  }
+  
+  .user-list__login:hover .user-list__login-icon polygon {
+    fill: #000000;
+  }
+  
+  .user-list__login:active .user-list__login-icon {
+    opacity: 0.1;
+  }
+  
+  .user-list__login-icon {
+    left: 15px;
   }
 }
