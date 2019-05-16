@@ -344,16 +344,9 @@ img {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .site-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    
-    /* flex-basis: 570px; */
-    width: 570px;
-    /* Временно для сетки меню планшетной и десктопной версии сайта*/
-    /* min-height: 70px; */
+    width: 780px;
   }
   
   .site-list__item {
@@ -379,12 +372,6 @@ img {
     color: rgba(0, 0, 0, 0.3);
     background-color: #ffffff;
     opacity: 1;
-  }
-}
-
-@media (min-width: 1200px) {
-  .site-list {
-    width: 780px;
   }
 }
 
@@ -480,6 +467,8 @@ img {
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
+    
+    /* background-color: rgba(255,0,0,0.5); */
   }
   
   .user-list__login:hover {
