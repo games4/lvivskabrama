@@ -101,6 +101,10 @@ img {
     background-position: center -5px;
     background-size: cover;
   }
+  
+  .page-header__logo img {
+    margin-top: 40px;
+  }
 }
 
 .main-nav {
