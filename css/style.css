@@ -95,7 +95,11 @@ img {
 
 @media (min-width: 1200px) {
   .page-header__logo {
-    height: 938px;
+    height: 882px;
+    
+    background-image: url("../img/bg-desktop.jpg");
+    background-position: center -5px;
+    background-size: cover;
   }
 }
 
