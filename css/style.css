@@ -51,3 +51,24 @@ img {
   overflow: hidden;
 }
 
+.site-header {
+  background-color: rgba(0,82,150,1.0);
+}
+
+.site-nav {
+  min-width: 320px;
+  /* width: 320px; */
+  /* margin: 0 auto; */
+  
+  /* background-color: rgba(255,0,0,0.5); */
+}
+
+.site-nav__logo {
+  display: block;
+  margin: 0 auto;
+  
+  width: 200px;
+  height: auto;
+  
+  padding: 20px;
+}
