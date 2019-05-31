@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <header class="site-header">
-      <nav class="site-nav">
-        <a class="site-nav__logo">
-          <img class="site-nav__logo-image" src="img/logo_lb.png" alt="Логотип «Львівська брама»" width="200" height="129">
-        </a>
-        <div class="site-nav__wrapper">
-          <button class="site-nav__toggle" type="button"><span>Відкрити меню</span></button>
-          <ul class="site-nav__list site-list">
+    <header class="page-header">
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="img/logo_lb.png" alt="Логотип «Львівська брама»" width="200" height="129">
+      </a>
+      <nav class="main-nav main-nav--closed main-nav--nojs">
+        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Відкрити меню</span></button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list site-list">
             <li class="site-list__item site-list__item--active">
               <a>Головна</a>
             </li>
@@ -37,10 +37,10 @@
               <a href="#">Контакти</a>
             </li>
           </ul>
-          <ul class="site-nav__list user-list">
+          <ul class="main-nav__list user-list">
             <li class="user-list__item">
-              <a href="login.html">
-                <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><polygon points="0 7 7.01 7 7.01 4.06 10.96 8.01 7.01 11.91 7.01 9.06 0 9.02 0 7"/><polygon points="7.01 0 7.01 2 14.03 2 14.03 13.99 7.01 13.99 7.01 16 16 16 16 0 7.01 0"/></svg>
+              <a class="user-list__login" href="login.html">
+                <svg class="user-list__login-icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><polygon points="0 7 7.01 7 7.01 4.06 10.96 8.01 7.01 11.91 7.01 9.06 0 9.02 0 7"/><polygon points="7.01 0 7.01 2 14.03 2 14.03 13.99 7.01 13.99 7.01 16 16 16 16 0 7.01 0"/></svg>
                 Вхід
               </a>
             </li>
@@ -52,7 +52,7 @@
       <article>
         <header>
           <h1>Львівська брама</h1>
-          <p><strong>Історія та діяльність об’єднання, яке утворилося під час Майдану</strong></p>
+          <p><strong>Тверда, мов скеля</strong></p>
         </header>
         <section>
           <h2>Перша барикада Майдану</h2>
@@ -64,9 +64,9 @@
         </section>
       </article>
     </main>
-    <footer class="site-footer">
-      <div>
-        <b>Приєднуйся до нас!</b>
+    <footer class="page-footer">
+      <div class="page-footer__social social">
+        <b class="social__title">Приєднуйся до нас!</b>
         <ul class="social__list">
           <li class="social__item">
             <a class="social__link social__link--twitter" href="https://twitter.com/lvivskabrama">Львівська брама в Твіттері</a>
